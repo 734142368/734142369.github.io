@@ -1,0 +1,77 @@
+html{
+    height:100%;
+}
+body
+{
+    background-image: url("../images/100k0k000000b9k85C8F6_R_1600_10000_Mtg_7.jpg");
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family:sans-serif ;
+    height: 100%;
+    max-width: 100%;
+}
+.login-form{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 60px 40px;
+    background: rgb(255, 255, 255);
+    box-shadow:0 15px 20px rgba(0,0,0,2);
+}
+.login-form h2
+{
+    margin: 0 0 40px;
+    padding: 0;
+    text-align: center;
+}
+.form-input
+{
+    position: relative;
+    margin: 20px 0;
+
+}
+.form-input input
+{
+    outline: none;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,5);
+    background: transparent;
+    font-size: 18px;
+}
+.form-input input[type=submit]
+{
+    background: #f202a0;
+    color :#fff;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.form-input input[type=submit]:hover
+{
+    background: #0090ff;
+}
+
+.link{
+    text-decoration: none;
+    display:block;
+    color: #4E5465;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+
+}
+audio[controls]{
+    float: bottom;
+}
+audio{
+    clear: both;
+    display: block;
+    margin:  70px auto;
+    outline:none;
+}

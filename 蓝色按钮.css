@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+}
+.center{          /* 定义任何元素水平垂直居中*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%,-50%);       /*translate()函数是css3的新特性.在不知道自身宽高的情况下，可以利用它来进行水平垂直居中.。*/
+/*当使用：top: 50%;left: 50%;， 是以左上角为原点，故不处于中心位置translate(-50%,-50%) 作用是，往上（x轴）,左（y轴）移动自身长宽的 50%，以使其居于中心位置。*/
+}
+input[type="checkbox"]{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    -webkit-appearance: none;   /*去除系统默认外观的样式*/
+    background: #8a8a8a;
+    outline:none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,2);
+    transition: .5s;
+}
+input:checked[type="checkbox"]{
+    background: #00b0ff;
+}
+input[type=checkbox]:before{
+    content: '';   /*需要和before 和 after搭配使用*/
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;/*该属性允许您为元素添加圆角边框！*/
+    top: 0;
+    left: 0;
+    background: #fff;
+    transition: .5s;
+    transform:scale(1);
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+
+}
+input:checked[type=checkbox]:before {
+left: 40px;
+}
+
+

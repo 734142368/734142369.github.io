@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #84b2db;
+    text-align: center;
+}
+section{
+    width: 100%;
+    height: 150px;
+    background: #AEBDCC;
+    text-align: center;
+    font:bold 35px sans-serif;
+}
+.taxi{
+    width: 100%;
+    height: 100px;
+    background: #60d44b;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px
+
+}
+.owner{
+    width: 100%;
+    height: 100px;
+    background: #008ccc;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px
+}
+.give{
+    width: 100%;
+    height: 100px;
+    background: #b8df06;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px
+}
+.get{
+    width: 100%;
+    height: 100px;
+    background: #af1acc;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px
+}
+.mine{
+    width: 100%;
+    height: 100px;
+    background: #7407cc;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px
+}
+ .taxi span{
+    position: relative;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%,-50%);
+}
+.ad span  {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+.owner span {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+.give  span {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+.get  span {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+.mine  span {
+    position: relative;
+    top: 25%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.taxi:hover {
+    width: 25%;
+    height: 100px;
+    background: #1fcc00;
+    margin: auto;
+    font: bold 35px sans-serif;
+    border-radius: 30px;
+    transition: .8s;
+    color: #ffffff;
+
+}
+.owner:hover{
+    width: 25%;
+    height: 96px;
+    background: #037cb3;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px;
+    transition:.8s;
+    color: #ffffff;
+
+}
+.give:hover {
+    width: 25%;
+    height: 96px;
+    background: #a0c208;
+    margin: auto;
+    font: bold 35px sans-serif;
+    border-radius: 30px;
+    transition: .8s;
+    color: #ffffff;
+}
+.get:hover{
+    width: 25%;
+    height: 96px;
+    background: #8d09a7;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px;
+    transition:.8s;
+    color: #ffffff;
+
+}
+.mine:hover{
+    width: 25%;
+    height: 96px;
+    background: #5e09a3;
+    margin: auto;
+    font:bold 35px sans-serif;
+    border-radius: 30px;
+    transition:.8s;
+    color: #ffffff;
+
+}
+a{
+    text-decoration: none;
+    width: 40%;
+    display: inline-block;
+}
